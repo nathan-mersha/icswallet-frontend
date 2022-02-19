@@ -1,4 +1,4 @@
-const baseURL = "https://icswallet.tk" // change to production
+const baseURL = "https://icswallet.tk/server" // change to production
 
 const login = async (data) => {
     const url = `${baseURL}/user/login`
