@@ -1,4 +1,4 @@
-const baseURL = "http://localhost:8000"
+const baseURL = "https://icswallet.tk"
 
 const login = async (data) => {
     const url = `${baseURL}/user/login`
