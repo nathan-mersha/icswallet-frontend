@@ -13,7 +13,7 @@ import Purchase from './Purchase';
 import Receive from './Receive';
 import { w3cwebsocket as W3CWebSocket } from "websocket";
 
-const client = new W3CWebSocket('ws://localhost:8000/ws');
+const client = new W3CWebSocket('ws://icswallet.tk/ws');
 
 export const Notifications = React.createContext()
 
